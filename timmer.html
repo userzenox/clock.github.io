@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Design Stopwatch using HTML CSS and JavaScript</title>
+	<link rel="stylesheet" href="timmer.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1> Countdown Timer</h1>
+
+
+		<div id="time">
+			<input id="hour"  type="number" max="99" min="0" value="0" class="time">
+				</input>
+			<span id="hour-label" class="label">Hr</span>
+
+			<input id="minute" type="number" max="60" min="0" value="0" class="time">
+				</input>
+			<span id="min-label" class="label">Min</span>
+			<input id="sec" type="number" max="60" min="0" value="0" class="time">
+			</input>
+			<span id="sec-label" class="label">Sec</span>
+			
+		</div>
+		<div id="buttons">
+			<button id="start" class="btn">
+				Start</button>
+			
+			<button class="btn" id="reset">
+				Reset</button>
+
+				<button id="home" class="btn"><a href="index.html"> Home</a></button>
+				
+		</div>
+	</div>
+
+	<script src="timmer.js"></script>
+</body>
+
+</html>
